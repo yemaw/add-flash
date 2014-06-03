@@ -8,11 +8,10 @@
 
 So, templates don't need to know what's in the flashes and can print directly.
 
-### API
-    request.add_flash(type, message);
-    
-    - parameters
-    -- 
+
+### Installation
+ `npm install add-flash`
+
 
 ### Usage
 

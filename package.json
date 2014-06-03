@@ -1,9 +1,10 @@
 {
   "name": "add-flash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Multiple Flash Messages for Express Application",
   "homepage": "https://github.com/yemaw/add-flash",
   "keywords": [
+    "multiple flash",
     "add-flash",
     "express",
     "flash",
@@ -36,6 +37,6 @@
   "bugs": {
     "url": "https://github.com/yemaw/add-flash/issues"
   },
-  "_id": "add-flash@0.0.1",
+  "_id": "add-flash@0.0.2",
   "_from": "add-flash@"
 }

@@ -1,12 +1,13 @@
 {
   "name": "add-flash",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Multiple Flash Messages for Express Application",
   "homepage": "https://github.com/yemaw/add-flash",
   "keywords": [
-    "multiple flash",
+    "bootstrap",
     "add-flash",
     "express",
+    "express-flash",
     "flash",
     "messages"
   ],
@@ -23,7 +24,6 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "connect-flash": "0.1.x",
     "express-flash" : ">= 0.0.2"
   },
   "devDependencies": {
@@ -37,6 +37,6 @@
   "bugs": {
     "url": "https://github.com/yemaw/add-flash/issues"
   },
-  "_id": "add-flash@0.0.2",
+  "_id": "add-flash@0.0.3",
   "_from": "add-flash@"
 }

@@ -7,9 +7,11 @@
 - `add-flash` use array style flash messages
 
 So, templates don't need to know what's in the flashes and can print directly.
+Message type can be dynamically determine by template via flash`.type`.
 
 
 ### Installation
+
  `npm install add-flash`
 
 
@@ -31,6 +33,7 @@ Requirements
 ```
 
 Add Flash middleware
+
 
 ``` javascript
   var add_flash = require('add-flash'); 

@@ -6,6 +6,13 @@
 - `express-flash` use the key-value style flash messages 
 - `add-flash` use array style flash messages
 
+So, templates don't need to know what's in the flashes and can print directly.
+
+### API
+    request.add_flash(type, message);
+    
+    - parameters
+    -- 
 
 ### Usage
 
@@ -58,6 +65,14 @@ Access the messages in your views via `locals.flashes` (swig template engine in 
   </div>
 ```
 
+
+### API
+    req.add_flash(type, message);
+    
+    type - Flash message type to use in css class. Can use bootstrap css alert types.
+    message - Flash message body
+
+    
 ### Requires
   * express-flash
   * cookieParser

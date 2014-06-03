@@ -27,7 +27,7 @@ Requirements
 Add Flash middleware
 
 ``` javascript
-  var add_flash = require('add-flash); 
+  var add_flash = require('add-flash'); 
   app.use(add_flash());
 ```
 
